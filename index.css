@@ -1,0 +1,89 @@
+body
+{
+  background-color: bisque;
+}
+
+h1
+{
+  text-align: center;
+
+}
+
+.list
+{
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  row-gap: 15px;
+  column-gap: 10px;
+  
+}
+
+#inp
+{
+  font-size: 20px;
+  padding: 10px;
+}
+
+#date
+{
+  font-size: 20px;
+  padding: 5px;
+}
+
+#btn1
+{
+  font-size: 20px;
+  padding: 5px;
+  background-color: green;
+  border: none;
+  border-radius: 5%;
+  padding:10px;
+  cursor: pointer;
+}
+
+.dlt
+{
+  font-size: 20px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding:10px;
+  cursor: pointer;
+}
+
+.dlt:hover
+{
+   font-size:22px;
+   padding: 12px;
+
+}
+.clear:hover
+{
+   font-size:22px;
+   padding: 12px;
+
+}
+#btn1:hover
+{
+   font-size:22px;
+   padding: 12px;
+
+}
+
+.clear
+{
+  font-size: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding:20px;
+  cursor: pointer;
+  float: right;
+  margin-right: 30px;
+
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoApp</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>ToDo App</h1> 
+  <div class="list">
+  <input id="inp" type="text" placeholder="Enter ToDo ">
+  <input id="date" type="date">
+  <button id="btn1" onclick="add()">Add</button>
+   </div>
+  <div class="list" id="list2"></div>
+  <button class="clear" onclick="alert('Local Storage has been deleted');
+     delet()">Clear</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
